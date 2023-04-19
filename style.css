@@ -1,0 +1,71 @@
+:root {
+  --primary-text-color: #434455;
+  --background-color: #ffffff;
+  --accent-color: #4d5ae5;
+  --header-color: #2e2f42;
+  --secondary-color: #ffffff;
+  --secondary-background: #2e2f42;
+  --footer-color: #f4f4fd;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: var(--primary-text-color);
+  background: var(--background-color);
+}
+
+h1,
+h2,
+h3 {
+  color: var(--header-color);
+}
+
+.decoration {
+  text-decoration: none;
+}
+
+/* header */
+
+.logo {
+  color: var(--header-color);
+  font-family: 'Raleway';
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.accent {
+  color: var(--accent-color);
+}
+
+.nav-link {
+  color: var(--header-color);
+}
+
+.address-link {
+  color: inherit;
+  font-style: normal;
+}
+
+/* main */
+
+.hero-title {
+  color: var(--secondary-color);
+  background: var(--secondary-background);
+}
+
+.btn {
+  color: var(--secondary-color);
+  background: var(--accent-color);
+}
+
+/* footer  */
+
+.footer-text {
+  color: var(--footer-color);
+  background: var(--secondary-background);
+}
