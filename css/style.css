@@ -65,7 +65,7 @@ body {
 }
 
 .connect {
-  font-style: normal;
+  font-style: inherit;
 }
 
 .connect-link {
