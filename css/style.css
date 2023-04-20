@@ -111,7 +111,9 @@ body {
 }
 
 .btn:hover,
-.btn:focus {
+.btn:focus,
+.nav-link:hover,
+.nav-link:focus {
   background-color: var(--btn-color);
 }
 
