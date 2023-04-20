@@ -21,12 +21,7 @@ body {
   text-decoration: none;
 }
 
-.list,
-.connect-list,
-.features-list,
-.section-list,
-.work-list,
-.galery-list {
+.list {
   list-style: none;
 }
 
