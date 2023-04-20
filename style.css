@@ -6,6 +6,7 @@
   --secondary-color: #ffffff;
   --secondary-background: #2e2f42;
   --footer-color: #f4f4fd;
+  --btn-color: #404bbf;
 }
 
 body {
@@ -16,14 +17,17 @@ body {
   background: var(--background-color);
 }
 
-h1,
-h2,
-h3 {
-  color: var(--header-color);
-}
-
 .decoration {
   text-decoration: none;
+}
+
+.nav-list,
+.address-list,
+.features-list,
+.section-list,
+.work-list,
+.galery-list {
+  list-style-type: none;
 }
 
 /* header */
@@ -43,7 +47,14 @@ h3 {
 }
 
 .nav-link {
-  color: var(--header-color);
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.nav-link:active,
+.address-link:active {
+  color: var(--accent-color);
 }
 
 .address-link {
@@ -56,11 +67,59 @@ h3 {
 .hero-title {
   color: var(--secondary-color);
   background: var(--secondary-background);
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
 }
 
 .btn {
   color: var(--secondary-color);
   background: var(--accent-color);
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+}
+
+.caption {
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+
+.text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.section-title {
+  color: var(--header-color);
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+
+.btn:hover,
+.btn:focus {
+  background: var(--btn-color);
+}
+
+.caption {
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+
+.caption,
+.nav-link {
+  color: var(--header-color);
+  font-weight: 500;
 }
 
 /* footer  */
@@ -68,4 +127,27 @@ h3 {
 .footer-text {
   color: var(--footer-color);
   background: var(--secondary-background);
+  font-family: inherit;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+/* portfolio page  */
+
+.radio-btn {
+  color: var(--accent-color);
+  background: var(--footer-color);
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+}
+
+.radio-btn:hover,
+.radio-btn:focus {
+  color: var(--secondary-color);
+  background: var(--btn-color);
 }
