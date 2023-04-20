@@ -42,11 +42,6 @@ body {
   color: var(--header-color);
 }
 
-.list + .link:hover,
-.list + .link:focus {
-  color: #404bbf;
-}
-
 .nav-link {
   font-size: 16px;
   line-height: 1.5;
@@ -63,9 +58,9 @@ body {
   font-style: normal;
 }
 
-.connect-link:hover,
-.connect-link:focus,
-.connect-link:active {
+.connect-link.link:hover,
+.connect-link.link:focus,
+.connect-link.link:active {
   color: var(--accent-color);
 }
 
