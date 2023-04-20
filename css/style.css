@@ -130,16 +130,19 @@ body {
 
 /* footer  */
 
+.basement {
+  background-color: var(--secondary-background);
+}
+
 .basement-text {
   color: var(--footer-color);
-  background-color: var(--secondary-background);
   font-family: inherit;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
 
-.basement:first-child {
+.basement .accent {
   color: var(--footer-color);
 }
 
