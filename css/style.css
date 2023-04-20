@@ -42,18 +42,7 @@ body {
   color: var(--header-color);
 }
 
-.link {
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-}
-
-.link:hover,
-.link:focus {
-  color: #404bbf;
-}
-
-/* .nav-link {
+.nav-link {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -61,8 +50,8 @@ body {
 
 .nav-link:hover,
 .nav-link:focus {
-  color: var(--btn-color);
-} */
+  color: #404bbf;
+}
 
 .connect {
   font-style: normal;
