@@ -58,9 +58,9 @@ body {
   font-style: normal;
 }
 
-.connect-link.link:hover,
-.connect-link.link:focus,
-.connect-link.link:active {
+.connect-link:hover,
+.connect-link:focus,
+.connect-link:active {
   color: var(--btn-color);
 }
 
