@@ -61,7 +61,7 @@ body {
 .connect-link.link:hover,
 .connect-link.link:focus,
 .connect-link.link:active {
-  color: var(--accent-color);
+  color: var(--btn-color);
 }
 
 .connect-link {
