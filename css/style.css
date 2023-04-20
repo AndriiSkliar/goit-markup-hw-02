@@ -64,9 +64,12 @@ body {
   color: var(--accent-color);
 }
 
+.address {
+  font-style: normal;
+}
+
 .address-link {
   color: inherit;
-  font-style: normal;
 }
 
 /* main */
