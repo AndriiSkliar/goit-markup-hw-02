@@ -48,9 +48,9 @@ body {
   letter-spacing: 0.02em;
 }
 
-.list-item:hover,
-.list-item:focus {
-  color: #404bbf;
+.nav-link:hover,
+.nav-link:focus {
+  color: var(--btn-color);
 }
 
 .connect {
