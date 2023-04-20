@@ -53,6 +53,8 @@ body {
 }
 
 .nav-link:active,
+.address-link:hover,
+.address-link:focus,
 .address-link:active {
   color: var(--accent-color);
 }
