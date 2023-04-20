@@ -130,7 +130,7 @@ body {
 
 /* footer  */
 
-.footer-text {
+.basement-text {
   color: var(--footer-color);
   background-color: var(--secondary-background);
   font-family: inherit;
@@ -139,7 +139,7 @@ body {
   letter-spacing: 0.02em;
 }
 
-.footer:first-child {
+.basement:first-child {
   color: var(--footer-color);
 }
 
