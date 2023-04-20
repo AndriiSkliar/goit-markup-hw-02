@@ -64,9 +64,12 @@ body {
   color: var(--accent-color);
 }
 
+.connect {
+  font-style: normal;
+}
+
 .connect-link {
   color: inherit;
-  font-style: normal;
 }
 
 /* main */
