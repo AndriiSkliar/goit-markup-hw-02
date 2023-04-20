@@ -139,6 +139,10 @@ body {
   letter-spacing: 0.02em;
 }
 
+.footer:first-child {
+  color: var(--footer-color);
+}
+
 /* portfolio page  */
 
 .radio-btn {
