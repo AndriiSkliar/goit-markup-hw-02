@@ -163,8 +163,8 @@ body {
 /* portfolio page  */
 
 .radio-btn {
-  color: var(--accent-color);
   background-color: var(--footer-color);
+  color: #4d5ae5;
   font-family: inherit;
   font-weight: 500;
   font-size: 16px;
