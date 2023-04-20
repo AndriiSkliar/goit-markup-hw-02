@@ -122,7 +122,7 @@ body {
 }
 
 .section-item {
-  border-color: var(--background-color);
+  background-color: #ffffff;
 }
 
 .btn:hover,
