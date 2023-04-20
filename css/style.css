@@ -54,6 +54,12 @@ body {
   color: #404bbf;
 }
 
+.current:hover,
+.nav-link:focus,
+.nav-link:active {
+  color: #404bbf;
+}
+
 .connect {
   font-style: normal;
 }
