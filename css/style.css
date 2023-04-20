@@ -52,6 +52,11 @@ body {
   letter-spacing: 0.02em;
 }
 
+.nav-link:hover,
+.nav-link:focus {
+  color: var(--btn-color);
+}
+
 .nav-link:active,
 .address-link:hover,
 .address-link:focus,
@@ -111,9 +116,7 @@ body {
 }
 
 .btn:hover,
-.btn:focus,
-.nav-item:hover,
-.nav-item:focus {
+.btn:focus {
   background-color: var(--btn-color);
 }
 
