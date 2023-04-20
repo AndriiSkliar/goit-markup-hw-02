@@ -121,6 +121,10 @@ body {
   text-transform: capitalize;
 }
 
+.section-item {
+  border-color: var(--background-color);
+}
+
 .btn:hover,
 .btn:focus {
   background-color: var(--btn-color);
