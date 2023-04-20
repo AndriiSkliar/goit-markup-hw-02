@@ -49,15 +49,15 @@ body {
 }
 
 .nav-link:hover,
-.nav-link:focus {
-  color: var(--btn-color);
+.nav-link:focus,
+.nav-link:active {
+  color: #404bbf;
 }
 
 .connect {
   font-style: normal;
 }
 
-.nav-link:active,
 .connect-link:hover,
 .connect-link:focus,
 .connect-link:active {
