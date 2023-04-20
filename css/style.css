@@ -109,7 +109,7 @@ body {
 }
 
 .section + .section {
-  background-color: var(--footer-color);
+  background-color: #f4f4fd;
 }
 
 .section-title {
