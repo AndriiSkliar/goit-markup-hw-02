@@ -159,5 +159,5 @@ body {
 .radio-btn:hover,
 .radio-btn:focus {
   color: var(--secondary-color);
-  background-color: var(--btn-color);
+  background-color: var(--secondary-background);
 }
