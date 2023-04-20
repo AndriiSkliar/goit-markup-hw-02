@@ -108,6 +108,10 @@ body {
   color: var(--primary-text-color);
 }
 
+.section + .section {
+  background-color: var(--footer-color);
+}
+
 .section-title {
   color: var(--header-color);
   font-size: 36px;
